@@ -1,5 +1,5 @@
 <div align="center">
-# Nyami - Python Code Obfuscator
+**Nyami - Python Code Obfuscator**
 
 
 **Protect your code. Keep it yours.**
