@@ -6,7 +6,7 @@
 
 [Join Discord Server](https://discord.gg/obfuscate) | [Website](https://nyami.cc) | [Documentation](http://nyami.gitbook.io/)
 
-*Advanced Python obfuscation toolkit designed to safeguard your intellectual property and prevent reverse engineering.*
+*Advanced Python obfuscator designed to safeguard your intellectual property and prevent reverse engineering.*
 
 </div>
 
