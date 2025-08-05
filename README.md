@@ -12,7 +12,7 @@
 
 ## 🛡️ Overview
 
-Nyami is a comprehensive Python obfuscation suite that transforms your source code into a protected, unreadable format while maintaining full functionality. Whether you're distributing commercial software, protecting proprietary algorithms, or securing sensitive applications, Nyami provides enterprise-grade protection against code theft and unauthorized analysis.
+Nyami is a Python obfuscator that transforms your source code into a protected, unreadable format while maintaining full functionality. Whether you're distributing commercial software, protecting proprietary software, or securing sensitive applications, Nyami provides enterprise-grade protection against code theft and unauthorized analysis.
 
 Our system uses **dynamic layering** - the number of protection layers changes with each obfuscation, creating a nearly unpredictable output that keeps reverse-engineers guessing!
 
@@ -20,32 +20,29 @@ Our system uses **dynamic layering** - the number of protection layers changes w
 
 ### 🔐 **Code Obfuscation**
 - **Function Encryption** - Secure function definitions with advanced encryption algorithms
-- **Bytecode Protection** - Encrypt Python bytecode for enhanced runtime security
-- **String Obfuscation** - Encrypt and hide all string literals throughout your codebase
-- **Import Masking** - Conceal module imports and dependencies from static analysis
+- **Bytecode Protection** - Encrypts Python bytecode using multiple layers of encryptions
+- **String Obfuscation** - Encrypts strings using XOR
+- **Import Obfuscation** - Conceal module imports and dependencies from static analysis
 - **Variable Renaming** - Replace meaningful variable names with randomized identifiers
-- **Control Flow Flattening** - Restructure code flow to confuse reverse engineering attempts
-
-### 🚀 **Advanced Protection**
+- **Control Flow Flattening & Obfuscation** - Restructure code flow to confuse reverse engineering attempts
 - **Mixed Boolean-Arithmetic (MBA)** - Apply mathematical transformations to logical operations
 - **Polymorphic Encryption** - Generate unique obfuscated output with each compilation
 - **Multi-Layer Security** - Stack multiple protection techniques for maximum security
 - **Opaque Predicates** - Insert conditional statements that always evaluate predictably
 - **Junk Code Injection** - Add non-functional code segments to mislead analyzers
 - **Number Conversion** - Transform numeric literals into hexadecimal, octal, or binary formats
+- **Code Minification** - Remove whitespace and comments to reduce file size
+- **Function Wrapping** - Encapsulate entire programs within protective functions
 
-### 🔒 **Security Hardening**
+### 🔒 **Security Features**
 - **Hardware-Based Locking** - Bind executables to specific hardware configurations (optional)
 - **Integrity Verification** - Detect and respond to code tampering attempts
-- **Anti-Debug Protection** - Prevent debugging tools and virtual machine analysis
-- **Antivirus Evasion** - Advanced obfuscation techniques specifically designed to slip past most antivirus software undetected
-- **Import Guard** - Protect against monkey patching and runtime modifications
+- **Anti-Debug Protection** - Prevent debugging tools and virtual machine analysis (optional)
+- **Import Protection** - Protect against monkey patching and runtime modifications
 
 ### 🛠️ **Developer Tools**
 - **Cross-Version Compatibility** - Support for multiple Python versions
 - **Macro System** - Pre-defined functions available after obfuscation for optional but useful specific implementations
-- **Code Minification** - Remove whitespace and comments to reduce file size
-- **Function Wrapping** - Encapsulate entire programs within protective functions
 - **PyInstaller Integration** - Seamless compatibility with executable packaging
 
 ## 🚀 Getting Started
@@ -121,20 +118,6 @@ Nyami combines the Japanese words 'nyx' (night) and 'yami' (darkness)
 - **Direct Communication** - Submit bug reports and suggestions directly through Discord
 - **Professional Support** - Helpful support team for setup and troubleshooting
 
-## 💰 Pricing & Keys
-
-- **Monthly Subscriptions** - Unlimited obfuscations for a monthly fee
-- **Pay-as-you-go** - Purchase individual obfuscation credits
-- **Shop Integration** - Purchase keys directly through our integrated shop
-- **Flexible Options** - Choose the plan that fits your needs
-
-## ⚖️ Terms of Service
-
-By using Nyami through Discord, you agree to:
-- Use the service for legitimate code protection only
-- Respect Discord's Terms of Service  
-- Follow server rules and guidelines
-- Not abuse or spam the bot service
 
 <div align="center">
 
