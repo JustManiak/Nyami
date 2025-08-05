@@ -1,6 +1,6 @@
+<div align="center">
 # Nyami - Python Code Obfuscator
 
-<div align="center">
 
 **Protect your code. Keep it yours.**
 
