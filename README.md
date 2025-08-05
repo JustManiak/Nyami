@@ -14,8 +14,6 @@
 
 Nyami is a Python obfuscator that transforms your source code into a protected, unreadable format while maintaining full functionality. Whether you're distributing commercial software, protecting proprietary software, or securing sensitive applications, Nyami provides enterprise-grade protection against code theft and unauthorized analysis.
 
-Our system uses **dynamic layering** - the number of protection layers changes with each obfuscation, creating a nearly unpredictable output that keeps reverse-engineers guessing!
-
 ## ✨ Core Features
 
 ### 🔐 **Code Obfuscation**
