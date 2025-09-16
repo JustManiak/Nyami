@@ -5,7 +5,7 @@
 
 **Protect your code. Keep it yours.**
 
-[Join Discord Server](https://discord.gg/obfuscate) | [Website](https://nyami.cc) | [Documentation](http://nyami.gitbook.io/)
+[Join Discord Server](https://discord.nyami.cc) | [Website](https://nyami.cc) | [Documentation](https://documentation.nyami.cc)
 
 *Advanced Python obfuscator designed to safeguard your intellectual property and prevent reverse engineering.*
 
@@ -50,7 +50,7 @@ Nyami is a Python obfuscator that transforms your source code into a protected, 
 
 Nyami operates through our Discord server - no module installation required!
 
-1. **Join our Discord server**: [discord.gg/obfuscate](https://discord.gg/obfuscate)
+1. **Join our Discord server**: [discord.gg/obfuscate](https://discord.nyami.cc)
 2. **Purchase a key** from our shop
 3. **Redeem your key** using the `!claim <key>` command
 4. **Use the obfuscation service** with the `!obfuscate` command
@@ -122,7 +122,7 @@ Nyami combines the Japanese words 'nyx' (night) and 'yami' (darkness)
 
 **Protect your code. Keep it yours.**
 
-*Join our Discord community today: [discord.gg/obfuscate](https://discord.gg/obfuscate)*  
+*Join our Discord community today: [discord.gg/obfuscate](https://discord.nyami.cc)*  
 *Visit our website: [nyami.cc](https://nyami.cc)*
 
 </div>
