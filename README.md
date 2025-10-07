@@ -18,31 +18,33 @@ Nyami is a Python obfuscator that transforms your source code into a protected, 
 ## ✨ Core Features
 
 ### 🔐 **Code Obfuscation**
-- **Function Encryption** - Secure function definitions with advanced encryption algorithms
-- **Bytecode Protection** - Encrypts Python bytecode using multiple layers of encryptions
-- **String Obfuscation** - Encrypts strings using XOR
-- **Import Obfuscation** - Conceal module imports and dependencies from static analysis
-- **Variable Renaming** - Replace meaningful variable names with randomized identifiers
-- **Control Flow Flattening & Obfuscation** - Restructure code flow to confuse reverse engineering attempts
-- **Mixed Boolean-Arithmetic (MBA)** - Apply mathematical transformations to logical operations
-- **Polymorphic Encryption** - Generate unique obfuscated output with each compilation
-- **Multi-Layer Security** - Stack multiple protection techniques for maximum security
-- **Opaque Predicates** - Insert conditional statements that always evaluate predictably
-- **Junk Code Injection** - Add non-functional code segments to mislead analyzers
-- **Number Conversion** - Transform numeric literals into hexadecimal, octal, or binary formats
-- **Code Minification** - Remove whitespace and comments to reduce file size
-- **Function Wrapping** - Encapsulate entire programs within protective functions
+- **Function Obfuscator** - Encrypts functions.
+- **Bytecode Encryption** - Encrypts Python bytecode for better protection
+- **String Encryption** - Secures all string literals within your code
+- **Import Obfuscator** - Hides and obfuscates module imports
+- **Variable Renamer** - Automatically renames variables to meaningless identifiers
+- **MBA Obfuscator** - Mixed Boolean-Arithmetic obfuscation for added protection
+- **Polymorphic Obfuscator & Encryption** - Dynamic code transformation that changes with each build
+- **Multi Layer Encryption** - Multiple layers of protection
+- **Control Flow Flattening & Obfuscator** - Obfuscates code by breaking and hiding structure
+- **Opaque Predicates** - Inserts always-true or always-false conditions
+- **Wrap In Function** - Wraps the whole code in a single function
+- **Minifier** - Removes spaces/comments for less memory usage
+- **Junk Code Injection** - Injects junk code to confuse Reverse Engineers
+- **Number Convertor** - Converts numbers to hex/octal/binary
 
 ### 🔒 **Security Features**
 - **Hardware-Based Locking** - Bind executables to specific hardware configurations (optional)
 - **Integrity Verification** - Detect and respond to code tampering attempts
 - **Anti-Debug Protection** - Prevent debugging tools and virtual machine analysis (optional)
 - **Import Protection** - Protect against monkey patching and runtime modifications
-
+  
 ### 🛠️ **Developer Tools**
 - **Cross-Version Compatibility** - Support for multiple Python versions
 - **Macro System** - Pre-defined functions available after obfuscation for optional but useful specific implementations
 - **PyInstaller Integration** - Seamless compatibility with executable packaging
+- **Version Check** - Checks the python version and exits the script if its not the same as the build version, it also lets the runner know the right version.
+- **Auto Module Install** - Installs all missing modules that the **obfuscator** uses.
 
 ## 🚀 Getting Started
 
@@ -63,7 +65,7 @@ Nyami operates through our Discord server - no module installation required!
 | `!claim <key>` | Redeem a key (monthly or pay-as-you-go) to enable obfuscation services |
 | `!status` | Check your subscription status, remaining uses, and AV detection information |
 | `!bug-report <title> <description>` | Submit a bug report |
-| `!suggestion <title> <description>` | Submit a suggestion for new features or improvements |
+| `!suggest <title> <description>` | Submit a suggestion for new features or improvements |
 | `!faq` | View frequently asked questions about the service |
 
 ### Usage Flow
@@ -80,9 +82,6 @@ Nyami operates through our Discord server - no module installation required!
 ### **How many layers of obfuscation are there?**
 Our system uses **dynamic layering** - the number changes with each obfuscation, creating a nearly unpredictable output that keeps reverse-engineers guessing!
 
-### **Is it undetected by VirusTotal?**
-**Absolutely!** Our advanced obfuscation techniques are specifically designed to slip past most antivirus software undetected
-
 ### **Why is it paid?**
 Quality comes at a cost! Our obfuscation process requires **significant resources, and constant updates**. Your support keeps us innovating and the service running smoothly!
 
@@ -97,10 +96,10 @@ Nyami combines the Japanese words 'nyx' (night) and 'yami' (darkness)
 
 ## 🔒 Privacy & Security
 
-- **Zero Data Retention** - Files are automatically purged after processing
-- **Secure Processing** - Your code is handled securely during obfuscation
-- **Privacy First** - What happens in Nyami, stays in Nyami
-- **No Permanent Storage** - Files are not kept on our servers
+- **Zero Data Retention** - Files are automatically purged after processing.
+- **Secure Processing** - Your code is handled securely during obfuscation.
+- **Privacy First** - What happens in Nyami, stays in Nyami.
+- **No Permanent Storage** - Files are not kept on our servers after obfuscation.
 
 ## 🤝 Community & Support
 
