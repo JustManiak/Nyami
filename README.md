@@ -18,7 +18,8 @@ Nyami is a Python obfuscator that transforms your source code into a protected, 
 ## ✨ Core Features
 
 ### 🔐 **Code Obfuscation**
-- **Function Obfuscator** - Encrypts functions.
+- **Function Obfuscator** - Encrypts functions
+- **Lite Function Obfuscator** - Compresses & marshales functions for smaller files
 - **Bytecode Encryption** - Encrypts Python bytecode for better protection
 - **String Encryption** - Secures all string literals within your code
 - **Import Obfuscator** - Hides and obfuscates module imports
@@ -32,19 +33,23 @@ Nyami is a Python obfuscator that transforms your source code into a protected, 
 - **Minifier** - Removes spaces/comments for less memory usage
 - **Junk Code Injection** - Injects junk code to confuse Reverse Engineers
 - **Number Convertor** - Converts numbers to hex/octal/binary
+- **Compress** - Not really obfuscation but makes files smaller
+- **Polymorphic Key Derivation** - Key is derived with a different logic each build
 
 ### 🔒 **Security Features**
-- **Hardware-Based Locking** - Bind executables to specific hardware configurations (optional)
-- **Integrity Verification** - Detect and respond to code tampering attempts
-- **Anti-Debug Protection** - Prevent debugging tools and virtual machine analysis (optional)
-- **Import Protection** - Protect against monkey patching and runtime modifications
+- **HWID Based Encryption** (optional) - Lock your code to specific hardware
+- **Integrity Checks** - Detect tampering attempts and unauthorized changes
+- **Anti-Debugger Protection** - Defense against Python debuggers and virtual machine detection
+- **Import Protection** - Defense against monkey patching.
   
 ### 🛠️ **Developer Tools**
-- **Cross-Version Compatibility** - Support for multiple Python versions
-- **Macro System** - Pre-defined functions available after obfuscation for optional but useful specific implementations
-- **PyInstaller Integration** - Seamless compatibility with executable packaging
+- **Multiple Python Version Support** - Works across different Python versions
+- **Macros** - Macro system for advanced customization
+- **Full Documentation** - Complete guides and examples for all features
+- **PyInstaller Support** - Easy integration with executable creation
 - **Version Check** - Checks the python version and exits the script if its not the same as the build version, it also lets the runner know the right version.
 - **Auto Module Install** - Installs all missing modules that the **obfuscator** uses.
+- **Script Interconnectivity** - Obfuscated scripts can be used as modules using the macro `__all__`
 
 ## 🚀 Getting Started
 
@@ -56,17 +61,6 @@ Nyami operates through our Discord server - no module installation required!
 2. **Purchase a key** from our shop
 3. **Redeem your key** using the `!claim <key>` command
 4. **Use the obfuscation service** with the `!obfuscate` command
-
-### Available Bot Commands
-
-| Command | Description |
-|---------|-------------|
-| `!obfuscate` | Start the obfuscation process. Upload your Python file and configure settings through the interface |
-| `!claim <key>` | Redeem a key (monthly or pay-as-you-go) to enable obfuscation services |
-| `!status` | Check your subscription status, remaining uses, and AV detection information |
-| `!bug-report <title> <description>` | Submit a bug report |
-| `!suggest <title> <description>` | Submit a suggestion for new features or improvements |
-| `!faq` | View frequently asked questions about the service |
 
 ### Usage Flow
 
